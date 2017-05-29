@@ -1,5 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
+
     background-color: #AAD6E4;
     border-radius: 10px;
     overflow: hidden;
@@ -12,11 +13,12 @@
     display: block;
     color: black;
     text-align:left;
+    margin-top: 5px;
     padding: 20px 40px;
     text-decoration: none;
     font-size: 25px;
     font-family: misfits;
-    height: 28px;
+    height: 28x;
 }
 
 /* Change the color of links on hover */
