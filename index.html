@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 <title>welcome to the citadel</title>
 </head>
@@ -11,6 +12,54 @@
     <a href="#portal guns">portal guns</a>
     <a href="#morty insurance">morty insurance</a>
     <a href="#about">the elders</a>
+  </div>
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="RickAndMorty1.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+      <img src="rickandmorty2.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+      <img src="rickandmorty3.jpg" style="width:100%">
+
+    </div>
+  </div>
+  <br>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 4500); // Change image every 2 seconds
+}
+</script>
+
+<div class="bottomnav">
+  Listen Morty, I hate to break it to you, but what people calls "good website
+  design" is just a chemical reaction that compels humans to buy shit. It hits
+  hard, Morty, then it slowly fades, leaving you stranded with shitty clickbait
+  garbage. I did it. Your parents are gonna do it. Break the cycle, Morty.
+  <br>
+  <br>
+  Welcome to the Citadel of Ricks. We, uh, do Morty Insurance, and Portal Gun
+  shit, and there's the Council of Ricks, I guess. Fuck, do whatever, *hic*.
+</div>
+
   </div>
 
 </body>

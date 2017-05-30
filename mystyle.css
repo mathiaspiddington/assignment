@@ -44,3 +44,74 @@ font-family: misfits;
 src: url('misfits.ttf'),
 url('http://www.dafont.com/misfits.font');
 }
+@font-face
+{
+font-family: smallerwriting;
+src: url('smallerwriting.ttf'),
+url('http://starriichan.deviantart.com/art/Rick-and-Morty-Font-572883306');
+}
+.firstad {
+
+background-color: blue;
+width: 80%;
+height: 500px;
+margin: auto;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50%;
+  width: 1000px;
+  position: relative;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Add a black background color to the top navigation */
+.bottomnav {
+
+    background-color: #AAD6E4;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.bottomnav {
+    float: left;
+    display: block;
+    color: black;
+    text-align:left;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: smallerwriting;
+    text-align: center;
+}
